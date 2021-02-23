@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
  
 #define PIN 6
-#define LED_NUM 50  //LEDの数
+#define LED_NUM 10  //LEDの数
 
 Adafruit_NeoPixel ledtape = Adafruit_NeoPixel(LED_NUM, PIN, NEO_GRB + NEO_KHZ800);  
  
